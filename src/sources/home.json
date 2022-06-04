@@ -10,18 +10,14 @@
         "Embedded Systems and Robotics"
     ],
     "parthners": [
-        "The journal «Information, Computing and Intelligent systems»: /link(http://itvisnyk.kpi.ua/about)/href()",
-        "The journal \"Cybernetics and Computer Technologies\" (CCTech): /link(http://cctech.org.ua/)/href()",
-        "\"International Theoretical Science Journal\" \"Kibernetika i sistemnyj analiz\".\n The journal is being translated into English in the United States by Springer as \"Cybernetics and Systems Analysis\": /link(http://www.kibernetika.org/)/href()\n/link(https://www.springer.com/journal/10559)/href()"
+        ["The journal «Information, Computing and Intelligent systems»: ", ["http://itvisnyk.kpi.ua/about"]],
+        ["The journal \"Cybernetics and Computer Technologies\" (CCTech): ", ["http://cctech.org.ua"]],
+        ["\"International Theoretical Science Journal\" \"Kibernetika i sistemnyj analiz\".\n The journal is being translated into English in the United States by Springer as \"Cybernetics and Systems Analysis\": ", ["http://www.kibernetika.org", "https://www.springer.com/journal/10559"]]
     ],
     "ads": {
-        "Important Dates": {
-            "October 10, 2020": "Paper submission",
-            "October 18, 2020": "Final Paper Submission\nRegistration and full payment",
-            "November 06 - 07, 2020": "HPC-UA 2020"
-        },
-        "Paper Submission": "Paper Submission via /link(Paper Submission Form)/href(https://docs.google.com/forms/d/e/1FAIpQLSeJLI9uXVu-5CQuQSuPcEBfQODgcHDKUdT5pP5pqXD9rcKuUg/viewform?pli=1)",
-        "Registration form for paper authors": "All of the authors of each presented paper must be registered as participants of the conference via conference /link(Web site registration form)/href(http://hpc.ugrid.org/#/registration).",
-        "Important information": "In connection with the continuation of the Covid epidemic the Six International Conference on High Performance Computing (HPC-UA 2020) will go virtual."
+        "Important Dates": ["October 10, 2020 : Paper submission", "October 18, 2020 : Final Paper Submission\nRegistration and full payment", "November 06 - 07, 2020 : HPC-UA 2020"],
+        "Paper Submission": ["Paper Submission via ", ["https://docs.google.com/forms/d/e/1FAIpQLSeJLI9uXVu-5CQuQSuPcEBfQODgcHDKUdT5pP5pqXD9rcKuUg/viewform?pli=1"]],
+        "Registration form for paper authors": ["All of the authors of each presented paper must be registered as participants of the conference via conference ", ["http://hpc.ugrid.org/#/registration"]],
+        "Important information": ["In connection with the continuation of the Covid epidemic the Six International Conference on High Performance Computing (HPC-UA 2020) will go virtual."]
     }
 }

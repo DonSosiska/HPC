@@ -1,17 +1,22 @@
-.home {  display: grid;
-
-    gap: 0px 0px;
-    grid-auto-flow: column;
-    justify-items: stretch;
-    grid-template-areas:
-      "banner banner"
-      "intro ads"
-      "significant-dates significant-dates"
-      "topics topics"
-      "partners partners";
+.home {  
+  padding: 1%;
+  display: grid;
+  gap: 0px 0px;
+  grid-auto-flow: column;
+  justify-items: stretch;
+  grid-template-areas:
+    "banner banner"
+    "intro ads"
+    "significant-dates significant-dates"
+    "topics topics"
+    "partners partners"
   }
   
-.banner { grid-area: banner; }
+.banner { 
+  margin: 1% auto;
+  max-width: 80%;
+  grid-area: banner;
+}
 
 .intro { grid-area: intro; }
 
@@ -23,3 +28,6 @@
 
 .partners { grid-area: partners; }
   
+h1{
+  color: #33b0ea;
+}

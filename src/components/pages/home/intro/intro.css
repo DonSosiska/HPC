@@ -1,0 +1,28 @@
+.organizers {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: stretch;
+    grid-template-areas:
+      "glushkov kpi gl";
+  }
+  
+  .glushkov { grid-area: glushkov; }
+  
+  .kpi { grid-area: kpi; }
+  
+  .gl { grid-area: gl; }
+  
+  .text{
+    text-align: center;
+    width: 100%;
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+
