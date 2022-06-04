@@ -1,0 +1,25 @@
+.home {  display: grid;
+
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    justify-items: stretch;
+    grid-template-areas:
+      "banner banner"
+      "intro ads"
+      "significant-dates significant-dates"
+      "topics topics"
+      "partners partners";
+  }
+  
+.banner { grid-area: banner; }
+
+.intro { grid-area: intro; }
+
+.ads { grid-area: ads; }
+
+.significant-dates { grid-area: significant-dates; }
+
+.topics {grid-area: topics;}
+
+.partners { grid-area: partners; }
+  

@@ -1,0 +1,22 @@
+{
+    "Cloud Computing": {
+        "HPC": "Explore problems and tasks of the state-of-the-art of HPC which are at the junction technologies of Artificial Intelligence, Big Data Computing, High Performance Data Analytics, IoT.",
+        "CLOUD": "Many organizations have found that using the Cloud has a clear advantage over in-house hardware. Explore how HPC is moving to the Cloud. Discuss development and management of Cloud systems and their applications.",
+        "SECURITY": "It is the various forms of technology developed created to store, use and exchange information against any unauthorized access, misuse, malfunction, modification, destruction, or improper disclosure, thereby preserving the value, confidentiality, integrity, availability, intended use and its ability to perform permitted critical functions."
+    },
+    "Deep Learning": {
+        "Machine Learning": "Machine Learning uses computer implementations of mathematical algorithms that can classify data, extract features or create insights. Machine Learning workloads straddles the disciplines of Artificial Intelligence and Big Data Computing. Examine Machine Learning regards the intersection between HPC and Big Data Computing",
+        "Artificial Intelligence": "Artificial intelligence is developing into the next generation of computing. It is impacting the future of virtually every industry and every human being. Artificial intelligence is acting as the main driver of emerging technologies like big data, robotics and IoT, and it will continue to act as a technological innovator for the foreseeable future.",
+        "Neural networks": "Today the possibilities for using neural networks to process massive amounts of data are limitless. Neural networks can now be used to perform tasks that were once performed exclusively by a human brain, such as automatically recognizing faces and speech in images, as well as making decisions based on a set of data such as a person´s previous experiences, or the number of likes they have on a social network."
+    },
+    "Software and Applications": {
+        "Data Science": "Focus on hot topics of Big Data and Big Analytics. Deep in emergent problems of Artificial Intelligence methods and applications. Examine Blockchain technologies: algorithms, applications, benefits, risks and bottlenecks.",
+        "Software": "The domains of HPC and High Performance Data Analytics in particular are increasingly based on parallel software and algorithms. These are hot topics, enabling wide spread of HPC in various areas of industry, technology and science. Problems of efficient software development, smart adaptive algorithms, mathematical libraries and solvers are discussed.",
+        "Applications": "Tackle challenges in modelling real world processes, numeric experiments and simulation in physics, astronomy, nano-technologies, computational biology, medicine, etc. Study theoretical grounds and numeric methods of math modeling and optimization."
+    },
+    "Embedded Systems and Robotics": {
+        "Robotics": "If you look around, you can see that our everyday lives are already filled with robots. The cars we drive, the printers we use, the smartphones we navigate our lives through, and even the machines that clean dishes and clothes for us, are all some level of robotic.",
+        "IoT": "There is an established connection between Internet of Things (IoT) and High Performance Computing. New paradigms and devices for HPC are related to smart building management, smart logistics and smart manufacturing leading to difficult combinatorial optimization of problems, etc.",
+        "Embedded HPC": "Recent years have brought an outburst of embedded electronics, many of them containing very powerful microprocessor designs that outperform the capabilities of desktop computers available ten years ago. The Embedded HPC is the response for growing appetite on computational power in embedded applications."
+    }
+}

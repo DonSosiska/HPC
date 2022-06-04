@@ -1,0 +1,182 @@
+{
+    "title": "6th International Conference\nHigh Performance Computing (HPC-UA 2020)",
+    "organizers": [
+        "Faculty of Informatics and Computer Science of Igor Sikorsky Kyiv Polytechnic Institute",
+        "V.M. Glushkov Institute of Cybernetics of NAS of Ukraine",
+        "GlobalLogic Ukraine"
+    ],
+    "date":"November 6, 2020",
+    "sections":
+        {
+            "Opening":{
+                "link":"https://bbb.comsys.kpi.ua/b/ser-pxp-ei8-fmr",
+                "schedule": [
+                    {
+                        "time":"9:00",
+                        "topic-name":"Opening of the conference",
+                        "organization":"Head of Computer Engineering Department",
+                        "speaker":"Sergii Stirenko"
+                    }
+                ]
+            },
+            "Cloud Computing Section":{
+                "link":"https://bbb.comsys.kpi.ua/b/ser-pxp-ei8-fmr",
+                "schedule": [
+                    {
+                        "time":"9:15",
+                        "topic-name":"Optimizing Kubernetes Resource Requests",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Oleksandr Kovalchuk"
+                    }
+                ]
+            },
+            "Deep Learning Section":{
+                "link":"https://bbb.comsys.kpi.ua/b/ser-pxp-ei8-fmr",
+                "schedule": [
+                    {
+                        "time":"9:30",
+                        "topic-name":"On Biomedical Computations in Cluster and Cloud Environment",
+                        "organization":"V.M. Glushkov Institute of Cybernetics of NAS of Ukraine",
+                        "speaker":"Tamara Bardadym"
+                    },
+                    {
+                        "time":"9:45",
+                        "topic-name":"Comparative Analysis of the Datasets with Multimodal Content",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Maksym Shulha"
+                    },
+                    {
+                        "time":"10:00",
+                        "topic-name":"Blockchain and Smart Contracts for Provenance of Deep Learning Content in Healthcare",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Volodymyr Valko"
+                    },
+                    {
+                        "time":"10:15",
+                        "topic-name":"Adaptive Threat Detection Method Based on the Operating System Audit Subsystem",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Anna Verner"
+                    }
+                ]
+            },
+            "Information Systems":{
+                "link":"https://bbb.comsys.kpi.ua/b/ser-pxp-ei8-fmr",
+                "schedule": [
+                    {
+                        "time":"10:45",
+                        "topic-name":"Sparse Signal Reconstruction via Kanerva's Sparse Distributed Memory",
+                        "organization":"V.M. Glushkov Institute of Cybernetics of NAS of Ukraine",
+                        "speaker":"Ruslan Vdovychenko"
+                    },
+                    {
+                        "time":"11:00",
+                        "topic-name":"Preconditions for Ukraine’s integration into the EU Digital Single Market",
+                        "organization":"V.M. Glushkov Institute of Cybernetics of NAS of Ukraine",
+                        "speaker":"Anastasiia Hrechko"
+                    }
+                ]
+            },
+            "Software and Applications":{
+                "link":"https://bbb.comsys.kpi.ua/b/ser-pxp-ei8-fmr",
+                "schedule": [
+                    {
+                        "time":"11:15",
+                        "topic-name":"Automated Parallelization of Big Data Processing on Multiple GPUs",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Oleksii Beketov"
+                    },
+                    {
+                        "time":"11:30",
+                        "topic-name":"Epidemiological trends: models and software",
+                        "organization":"V.M. Glushkov Institute of Cybernetics of NAS of Ukraine",
+                        "speaker":"Maksym Dunaievskyi"
+                    },
+                    {
+                        "time":"11:45",
+                        "topic-name":"Parallel computing of elastic magnetic systems at the nanoscale",
+                        "organization":"Taras Shevchenko University of Kyiv",
+                        "speaker":"Artem Tomilo"
+                    },
+                    {
+                        "time":"12:00",
+                        "topic-name":"Accelerating of Program Execution by Discrete Particle Swarm Optimization Method",
+                        "organization":"Pukhov Institute for Modeling in Energy Engineering",
+                        "speaker":"Sergii Sushko"
+                    },
+                    {
+                        "time":"12:15",
+                        "topic-name":"A Method of Recognition Technology of Fake New",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Liudmyla Mishchenko"
+                    },
+                    {
+                        "time":"12:30",
+                        "topic-name":"Multimodal Data Integration and Processing Method for Brain-Computer Interface Research",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Kostiantyn Kostiukevych"
+                    }
+                ]
+            },
+            "Embedded Systems and Robotics":{
+                "link":"https://globallogic.zoom.us/j/99080141599?pwd=Q0ZZNzQveThxR0xGSTB0eE10cWdUdz09",
+                "schedule": [
+                    {
+                        "time":"14:00",
+                        "topic-name":"PoC as a learning approach in Embedded",
+                        "organization":"GlobalLogic Ukraine",
+                        "speaker":"Viktoriia Taraniuk"
+                    },
+                    {
+                        "time":"14:45",
+                        "topic-name":"Feasibility Study Of Hardware Acceleration In Gif Compression Algorithm",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Ivan Mozghoviy"
+                    },
+                    {
+                        "time":"15:00",
+                        "topic-name":"Try-on AR",
+                        "organization":"GlobalLogic Ukraine",
+                        "speaker":"Pavlo Didyk"
+                    },
+                    {
+                        "time":"15:30",
+                        "topic-name":"Genetic Programming of Discrete Cosine Transform Processors",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Anatoliy Sergiyenko"
+                    },
+                    {
+                        "time":"15:45",
+                        "topic-name":"Cooperation of IT companies with universities for the development of the industry",
+                        "organization":"Univesity program coordinator, consultat GlobalLogic, GlobalLogic Ukraine",
+                        "speaker":"Olga Kurna"
+                    },
+                    {
+                        "time":"16:00",
+                        "topic-name":"Traffic engineering in DNC with a ramified topology",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Dmytro Korenko"
+                    },
+                    {
+                        "time":"16:15",
+                        "topic-name":"Turning simple microcontroller board into IoT platform",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Igor Muravyov"
+                    },
+                    {
+                        "time":"16:30",
+                        "topic-name":"Pit searching system using iot technology for smartcity",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Anton Kopiika"
+                    },
+                    {
+                        "time":"16:45",
+                        "topic-name":"The data transmission system based on network communication protocols for IoT",
+                        "organization":"Igor Sikorsky Kyiv Polytechnic Institute",
+                        "speaker":"Serhiy Nikolskiy, Sergiy Vanyarha"
+                    }
+                ]
+            }
+        }
+}
+
+
