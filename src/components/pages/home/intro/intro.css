@@ -1,4 +1,5 @@
-.organizers {  display: grid;
+.organizers {  
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;
@@ -14,15 +15,32 @@
   
   .gl { grid-area: gl; }
   
+.organizer{
+    display: grid;
+    grid-template-rows: 0.fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "text"
+      "title-img"
+}
+
   .text{
     text-align: center;
     width: 100%;
+    grid-area: text
   }
 
-  img{
+  h4.text{
+    text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto
+    grid-area: text
+  }
+
+  .title-img{
+    display: block;
+    margin: auto auto;
+    max-block-size: 80%;
+    grid-area:title-img
   }
 
 

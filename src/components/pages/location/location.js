@@ -12,6 +12,7 @@ const checkIsNoLinks = (links) => {
 const Locate = (data) => {
     return (
         <div className="location">
+            <h1>Location</h1>
             <div className="location-text">
                 <ul>
                     <li> Opening Session {data.data.openingSession}
@@ -33,7 +34,7 @@ const Locate = (data) => {
                 </ul>
             </div>
             <div className="map">
-                <Iframe src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.588777782956!2d30.45845571573128!3d50.44875987947511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce9d34d96a15%3A0x67d993dffc80196e!2z0JPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INC_0L7Qu9C40YLQtdGF0L3QuNGH0LXRgdC60LjQuSDQvNGD0LfQtdC5INC_0YDQuCDQndCi0KPQoyDQmtCf0Jg!5e0!3m2!1sru!2sua!4v1572529472475!5m2!1sru!2sua" width="500" height="250" frameborder="0" allowfullscreen="allowfullscreen"></Iframe>
+                <Iframe src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.588777782956!2d30.45845571573128!3d50.44875987947511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce9d34d96a15%3A0x67d993dffc80196e!2z0JPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INC_0L7Qu9C40YLQtdGF0L3QuNGH0LXRgdC60LjQuSDQvNGD0LfQtdC5INC_0YDQuCDQndCi0KPQoyDQmtCf0Jg!5e0!3m2!1sru!2sua!4v1572529472475!5m2!1sru!2sua" frameborder="0" allowfullscreen="allowfullscreen"></Iframe>
             </div>
             <div className="location-descrption">
                 <div id="visa" className="descrption-visa">

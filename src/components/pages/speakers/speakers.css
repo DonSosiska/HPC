@@ -1,0 +1,22 @@
+.speakers{
+    margin: 1.5% 3%;
+}
+
+.speakers .card{
+    flex-direction: row;
+    margin-top: 4%;
+    border-radius: 100px;
+}
+
+.card-body{
+    margin: auto;
+}
+
+.speakerPhoto{
+    margin: auto;
+}
+
+.speakerPhoto>*{
+    border-radius: 15%; /* Радиус скругления */
+}
+

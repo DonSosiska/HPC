@@ -2,3 +2,40 @@
     display: flex;
     flex-direction: column;
 }
+
+.program{
+    margin: 1.5% 3%;
+    text-align: center;
+}
+
+.schedule{
+    max-width: 60%;
+    margin: 1.5% auto;
+}
+
+.speeches{
+    text-align: left;
+}
+
+.speeches>a{
+    display: block;
+    text-align: center;
+}
+
+.section::before{
+    content: "";
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    left: -15%;
+    top: -5px;
+    background-color: #8AACC8;
+    width: 130%;
+    height: 1vh;
+}
+
+.topicInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}

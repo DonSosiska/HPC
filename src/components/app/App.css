@@ -13,10 +13,10 @@
 }
 
 .App{
-  width: 80vw;
-  min-height: 100vh;
+  width: 60vw;
   margin: 0 auto;
   background-color: #eeffff;
+  min-height: 70vh;
 }
 
 

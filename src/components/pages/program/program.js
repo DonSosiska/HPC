@@ -6,15 +6,11 @@ const renderSection = (section)=>{
             <a href={section.link}>{section.link}</a>
             {Object.entries(section.schedule).map((key)=>{
                 return(
-                    <li>
-                        {
-                            Object.entries(key[1]).map((key)=>{
-
-                                return(
-                                    <div className={key[0]}>{key[1]}</div>
-                                )
-                            })
-                        }
+                    <li className="topicInfo">
+                        <h4>{key[1].time}</h4>
+                        <strong>{key[1].topicName}</strong>
+                        <small>{key[1].organization}</small>
+                        <strong>{key[1].speaker}</strong>
                     </li>
                 )
         })}
@@ -28,9 +24,8 @@ const renderSchedule = (sections)=>{
         Object.entries(sections).map((key)=>{
             return(
             <div className="section">
-                {key[0]}
-                
-                    {renderSection(key[1])}
+                <h4>{key[0]}</h4>
+                {renderSection(key[1])}
             </div>)
         })
     )
@@ -41,11 +36,11 @@ const Program = (data) => {
         <div className="program">
             <h1>Program</h1>
             <div className="title">
-                {data.data.title}
+                <h4>{data.data.title}</h4>
                 {data.data.organizers.map((str)=> {
                     return(<strong>{str}</strong>)
                 })}
-                {data.data.date}
+                <h2>{data.data.date}</h2>
             </div>
             <div className="schedule">
                 {

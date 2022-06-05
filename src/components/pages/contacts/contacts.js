@@ -6,7 +6,7 @@ const Contacts = (data) => {
             <div className="container">
                 <div className="contacts__content">
                     <div className="title--gray">
-                        CONTACTS
+                        <h1>CONTACTS</h1>
                     </div>
                     <div className="contacts__inner">
                         <p className="contacts__text">

@@ -1,5 +1,19 @@
 .block{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.block-name{
+    margin:auto 2%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mb-2{
+    margin: 0.8rem 0.4rem;
+}
+
+.topics{
+    margin: 1.5% 3%;
 }

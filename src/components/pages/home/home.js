@@ -6,7 +6,7 @@ import Intro from './intro/intro'
 const renderLink = (linkData) => {
     return (linkData.map((el) => {
         return (
-            <a href={el}>{el + " "}</a>
+            <li><a href={el}>{el + " "}</a></li>
         )
     })
     )
@@ -17,8 +17,8 @@ const Home = (data) => {
 
     return (
         <div className="home">
-            <Image rounded="true" className="banner" src={require("../../../sources/img/baner1.91f1427e.jpeg")}></Image>
-            <Intro className="intro" data={[data.data.title, data.data.propose, data.data.text]}> </Intro>
+            <Image className="banner" src={require("../../../sources/img/baner1.91f1427e.jpeg")}></Image>
+            <Intro data={[data.data.title, data.data.propose, data.data.text]}> </Intro>
             <div className="ads">{
                 Object.entries(data.data.ads).map((value) => {
                     return (
@@ -57,7 +57,9 @@ const Home = (data) => {
                     return (
                         <div>
                             {el[0]}
-                            {renderLink(el[1])}
+                            <ul>
+                                {renderLink(el[1])}
+                            </ul>
                         </div>
                     )
                 })}
