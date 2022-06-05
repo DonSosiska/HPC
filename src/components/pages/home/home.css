@@ -1,9 +1,10 @@
 .home {  
+  max-width: 90%;
   display: grid;
   gap: 0px 0px;
-  grid-template-columns: 2fr 1fr;
-  grid-auto-flow: column;
-  justify-items: stretch;
+  grid-template-columns: 70% 30%;
+  grid-auto-flow: row;
+  justify-items: start;
   margin: 1.5% 3%;
   grid-template-areas:
     "banner banner"
@@ -15,23 +16,27 @@
   
 .banner { 
   margin: 1% auto;
-  max-width: 100%;
+  width: 90%;
   grid-area: banner;
   border-radius: 1%;
+  display: block;
 }
 
 .intro { grid-area: intro; }
 
 .ads {
   grid-area: ads;
-  margin: auto 10%;
+  margin: auto 10px;
   }
 
 .toast-body div, a{
   font-size:1.1rem;
 }
 
-.toast{min-width: 20%; }
+.ads>.toast{
+  width: 70%; 
+  max-width: 70%;
+}
 
 .significant-dates { grid-area: significant-dates; }
 
