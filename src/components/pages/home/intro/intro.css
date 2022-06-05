@@ -1,4 +1,5 @@
 .organizers {  
+  margin-top: 3%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -38,9 +39,11 @@
 
   .title-img{
     display: block;
-    margin: auto auto;
+    margin: auto;
     max-block-size: 80%;
-    grid-area:title-img
+    grid-area:title-img;
+    align-self: center;
+  justify-self: center;
   }
 
 

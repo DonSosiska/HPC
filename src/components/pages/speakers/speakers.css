@@ -5,7 +5,6 @@
 .speakers .card{
     flex-direction: row;
     margin-top: 4%;
-    border-radius: 100px;
 }
 
 .card-body{
@@ -17,6 +16,10 @@
 }
 
 .speakerPhoto>*{
-    border-radius: 15%; /* Радиус скругления */
+    border-top-right-radius: 15%; /* Радиус скругления */
+    border-bottom-right-radius: 15%; /* Радиус скругления */
 }
 
+.card-text>*{
+    font-size: 0.95rem;
+}

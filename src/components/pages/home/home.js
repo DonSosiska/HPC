@@ -40,7 +40,7 @@ const Home = (data) => {
                 <h1>Significant Dates</h1>
                 <h>{data.data.significant}</h>
             </div>
-            <div className="topics">
+            <div className="topics-home">
                 <h1>Topics</h1>
                 <ul>
                     {data.data.topics.map((el)=>{
