@@ -1,28 +1,19 @@
 
 
 .header {  
-    display: grid;
-    grid-template-columns: 1.7fr 0.3fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    justify-items: stretch;
-    background-color: #bbdefb;
-    grid-template-areas:
-        "free registration"
-        "text text";
+    display: block;
+    height: 30%;
+    background-color: #bbdefb7e;
 }
 
-.text {
+.header>.text {
     justify-self: center;
     align-self: center;
-    grid-area: text;
+    margin: 0 auto;
+    background-color: #CBE1F4;
 }
 
-.free { grid-area: free; }
-
 .registration { 
-    grid-area: registration; 
-    
+    justify-content: right;
 }
       

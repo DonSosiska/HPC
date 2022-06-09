@@ -18,6 +18,7 @@ import Contacts from "../pages/contacts/contacts"
 import Header from "../header/header"
 import Footer from "../footer/footer"
 import NavBar from "../nav-bar/nav-bar"
+import Registration from '../header/registration/registration';
 
 import data from "../../sources/text"
 import home from "../../sources/home"
@@ -50,6 +51,7 @@ class App extends Component {
               <Route path='/speakers/' element={<Speakers/>} />
               <Route path='/location/' element={<Locate data={location}/>} />
               <Route path='/contacts/' element={<Contacts data={contacts}/>} />
+              <Route path='/registration/' element={<Registration/>} />
             </Routes>
           </HashRouter>
         </div>

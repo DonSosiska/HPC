@@ -13,13 +13,21 @@
 
 .speakerPhoto{
     margin: auto;
+    height: 100%;
 }
 
 .speakerPhoto>*{
-    border-top-right-radius: 15%; /* Радиус скругления */
-    border-bottom-right-radius: 15%; /* Радиус скругления */
+    display: block;
+    max-width: 15em;
+    border-top-left-radius: 15%; /* Радиус скругления */
+    border-bottom-left-radius: 15%; /* Радиус скругления */
 }
 
 .card-text>*{
     font-size: 0.95rem;
+}
+
+.speakers>.speakersListItem{
+    background-color: #8aacc815;
+    border-radius: 3rem;
 }

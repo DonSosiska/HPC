@@ -1,6 +1,7 @@
 import "./speakers.css";
 import { Component } from "react";
 import {Card} from "react-bootstrap"
+import defaultImg from "../../../sources/img/kpi-logo.7e0ca165.svg"
 
 class Speakers extends Component {
     constructor() {
@@ -14,7 +15,7 @@ class Speakers extends Component {
                 Object.entries(this.state.list.data).map((item)=>{
                     return(
                         <Card className="speakersListItem" id={item[1].id}>
-                          <div className="speakerPhoto"><Card.Img variant="left" src={(item[1].photo === null) ? require("../../../sources/img/_D72Bty5_400x400.jpg") :item[1].photo} style={{ width: '300px', height: '300px'}}/></div>
+                          <div className="speakerPhoto"><Card.Img variant="left" src={(item[1].photo === null) ? defaultImg :item[1].photo}/></div>
                           <Card.Body>
                             <Card.Title><strong>{item[1].name}</strong></Card.Title>
                             <Card.Text>

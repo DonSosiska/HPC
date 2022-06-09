@@ -12,6 +12,14 @@ const renderLink = (linkData) => {
     )
 }
 
+const renderDiffLink = (linkData) => {
+    return (
+        linkData.map((link) => {
+            return(<li><a href={link.split('/href')[1].slice(1, -1)}> { link.split('/href')[0].slice(6, -1) }</a></li>)
+        })
+    )
+}
+
 
 const Home = (data) => {
 
@@ -26,8 +34,8 @@ const Home = (data) => {
                             <ToastHeader closeButton="">
                                 <strong className="me-auto">{value[0]}</strong>
                             </ToastHeader>
-                            <Toast.Body> 
-                                {value[1].map((el)=>{if (typeof (el) === "string") return <div>{el}</div>; else return renderLink(el)})} 
+                            <Toast.Body>
+                                {value[1].map((el) => { if (typeof (el) === "string") return <div>{el}</div>; else return renderLink(el) })}
                             </Toast.Body>
                         </Toast>
                     )
@@ -38,17 +46,19 @@ const Home = (data) => {
             </div>
             <div className="significant-dates">
                 <h1>Significant Dates</h1>
-                <h>{data.data.significant}</h>
+                <h>{data.data.significant[0]}</h>
+                <ul>{renderDiffLink(data.data.significant[1])}</ul>
             </div>
             <div className="topics-home">
                 <h1>Topics</h1>
                 <ul>
-                    {data.data.topics.map((el)=>{
-                    return (
-                        <li>
-                            {el}
-                        </li>
-                     )})}
+                    {data.data.topics.map((el) => {
+                        return (
+                            <li>
+                                {el}
+                            </li>
+                        )
+                    })}
                 </ul>
             </div>
             <div className="parthners">
