@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import {
   HashRouter,
   Route,
-  Routes,
+  Routes
 } from "react-router-dom"
 
 import Home from "../pages/home/home"
@@ -42,7 +42,7 @@ class App extends Component {
 
           <HashRouter basename={""} >
             <Routes>
-              <Route path='/home/' element={<Home data={home}/>} />
+              <Route path='/' element={<Home data={home}/>} />
               <Route path='/topics/' element={<Topics data={topics}/>} />
               <Route path='/committees/' element={<Committees data={committees}/>} />
               <Route path='/program/' element={<Program data={program}/>} />

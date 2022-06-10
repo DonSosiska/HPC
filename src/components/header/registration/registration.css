@@ -1,4 +1,116 @@
-.header>.btn{
+.header>button{
     display: block;
     margin-left: auto;
 }
+
+form {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "first-name-label first-name-input"
+      "second-name-label second-name-input"
+      "middle-name-label middle-name-input"
+      "email-label email-input"
+      "phone-label phone-input"
+      "papers-title-label papers-title-input"
+      "country-label country-input"
+      "brief-label brief-input"
+      "area-label area-input"
+      "speaker-q speaker-q"
+      "file submit-button";
+  }
+  
+  .first-name-input { 
+      grid-area: first-name-input; 
+      justify-self: start;
+      align-self: center;}
+  
+  .second-name-input { 
+      grid-area: second-name-input; 
+      justify-self: start;
+      align-self: center;}
+  
+  .middle-name-input { 
+      grid-area: middle-name-input; 
+      justify-self: start;
+      align-self: center;}
+  
+  .email-input { 
+    grid-area: email-input; 
+    justify-self: start;
+    align-self: center;}
+  
+  .phone-input { 
+    grid-area: phone-input; 
+    justify-self: start;
+    align-self: center;}
+  
+  .papers-title-input { 
+    grid-area: papers-title-input; 
+    justify-self: start;
+    align-self: center;
+    }
+  
+  .country-input { 
+    grid-area: country-input; 
+    justify-self: start;
+    align-self: center;}
+  
+  .area-input { 
+    grid-area: area-input; 
+    justify-self: start;
+    align-self: center;}
+  
+  .brief-input { 
+    grid-area: brief-input; 
+    justify-self: start;
+    align-self: center;}
+  
+  .first-name-label {
+    justify-self: end;
+    align-self: center;
+    grid-area: first-name-label;
+  }
+  
+  .second-name-label { grid-area: second-name-label; justify-self: end;
+    align-self: center;}
+  
+  .middle-name-label { grid-area: middle-name-label; justify-self: end;
+    align-self: center;}
+  
+  .email-label { grid-area: email-label; justify-self: end;
+    align-self: center;}
+  
+  .phone-label { grid-area: phone-label; justify-self: end;
+    align-self: center;}
+  
+  .papers-title-label { grid-area: papers-title-label; justify-self: end;
+    align-self: center;}
+  
+  .country-label { grid-area: country-label; justify-self: end;
+    align-self: center;}
+  
+  .brief-label { grid-area: brief-label; justify-self: end;
+    align-self: center;}
+  
+  .area-label { grid-area: area-label; justify-self: end;
+    align-self: center;}
+  
+    .speaker-q {
+        grid-area: speaker-q;
+        justify-self: center;
+        align-self: center;
+    }
+
+    #uploadInput{
+        grid-area: file;
+        justify-self: end;
+    align-self: center;
+    }
+
+    .submit-button{
+        grid-area: submit-button;
+        justify-self: start;
+        align-self: center;
+    }

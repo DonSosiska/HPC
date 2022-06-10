@@ -41,81 +41,84 @@ class Registration extends React.Component {
 
   render() {
     return (
-      <form action = 'http://localhost:3333/' method = 'POST' enctype="multipart/form-data">
-        <label>
+      <form action = 'http://localhost:3333/' method = 'POST' >
+        <label className="first-name-label">
           First Name :
-          <input
-            name="firstName"
-            type="text"
-            value={this.state.numberOfGuests}
-            onChange={this.handleInputChange} />
         </label>
-        <br/>
-        <label>
+        <input
+          required
+          className="first-name-input"
+          name="firstName"
+          type="text"
+          value={this.state.numberOfGuests}
+          onChange={this.handleInputChange} />
+        <label className="second-name-label">
           Second Name :
-          <input
-            name="secondName"
-            type="text"
-            value={this.state.numberOfGuests}
-            onChange={this.handleInputChange} />
         </label>
-        <br />
-        <label>
+        <input
+          required
+          className="second-name-input"
+          name="secondName"
+          type="text"
+          value={this.state.numberOfGuests}
+          onChange={this.handleInputChange} />
+        <label className="middle-name-label">
           Middle Name :
-          <input
-            name="middleName"
-            type="text"
-            value={this.state.numberOfGuests}
-            onChange={this.handleInputChange} />
         </label>
-        <br />
-        <label>
+        <input
+          className="middle-name-input"
+          name="middleName"
+          type="text"
+          value={this.state.numberOfGuests}
+          onChange={this.handleInputChange} />
+        <label className="email-label">
           Email :
+        </label>
           <input
+            required
+            className="email-input"
             name="email"
             type="email"
             value={this.state.numberOfGuests}
             onChange={this.handleInputChange} />
-        </label>
-        <br />
-        <label>
+        <label className="phone-label">
           Phone :
-          <input
-            name="phone"
-            type="tel"
-            checked={this.state.isGoing}
-            onChange={this.handleInputChange} />
         </label>
-        <br />
-        <label>
+        <input
+          required
+          className="phone-input"
+          name="phone"
+          type="tel"
+          checked={this.state.isGoing}
+          onChange={this.handleInputChange} />
+        <label className="papers-title-label">
           Title of conference paper :
-          <input
-            name="papersTitle"
-            type="text"
-            checked={this.state.isGoing}
-            onChange={this.handleInputChange} />
         </label>
-        <br />
-        <label>
+        <input
+          className="papers-title-input"
+          name="papersTitle"
+          type="text"
+          checked={this.state.isGoing}
+          onChange={this.handleInputChange} />
+        <label className="country-label">
           Country :
-          <input
-            name="country"
-            type="text"
-            checked={this.state.isGoing}
-            onChange={this.handleInputChange} />
         </label>
-        <br />
-        <label>
-          Brief information about yorself: 
-          <textarea name="brief" value={this.state.value} onChange={this.handleAreaChange} />
-        </label>
-        <br />
-        <label>
+        <input
+          required
+          className="country-input"
+          name="country"
+          type="text"
+          checked={this.state.isGoing}
+          onChange={this.handleInputChange} />
+        <label className="brief-label">
+          Brief information about yorself:
+        </label> 
+        <textarea required className="brief-input" name="brief" value={this.state.value} onChange={this.handleAreaChange} />
+        <label className="area-label">
           Area of scientific interest :
-          <textarea name="area" value={this.state.value} onChange={this.handleAreaChange} />
         </label>
-        <br />
-        <label>
+        <textarea required className="area-input" name="area" value={this.state.value} onChange={this.handleAreaChange} />
+        <label className="speaker-q">
           Are you speaker? :
           <input
             name="isSpeaker"
@@ -125,7 +128,7 @@ class Registration extends React.Component {
         </label>
         <br />
         <input id="uploadInput" type="file" name="myFiles" accept="image/jpeg"></input>
-        <button type="submit">
+        <button className="submit-button" type="submit">
               Submit
         </button>
       </form>

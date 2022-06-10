@@ -7,12 +7,12 @@ const NavBar = () => {
         <div>
             <Nav
                 fill
-                defaultActiveKey="#/home"
+                defaultActiveKey="link-1"
                 variant="tabs"
                 className="justify-content-center"
             >
                 <Nav.Item>
-                    <Nav.Link eventKey="link-1" href="#/home">Home</Nav.Link>
+                    <Nav.Link eventKey="link-1" href="#/">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="link-2" href="#/topics">Topics</Nav.Link>
