@@ -1,10 +1,10 @@
 {
     "formLink":["Paper Submission Form", "https://docs.google.com/forms/d/e/1FAIpQLSeJLI9uXVu-5CQuQSuPcEBfQODgcHDKUdT5pP5pqXD9rcKuUg/viewform?pli=1"],
     "templateLink":["https://www.ieee.org/conferences/publishing/templates.html","https://www.ieee.org/conferences/publishing/templates.html"],
-    "name":"HPC-UA 2020",
+    "name":"HPC-UA 2023",
     "mail":"hpc.ua.conf@gmail.com",
-    "refundDeadline":"20.10.2020",
-    "paymentDeadline":"30.09.2020",
-    "transferDeadline":"20.10.2020",
+    "refundDeadline":"20.10.2023",
+    "paymentDeadline":"30.09.2023",
+    "transferDeadline":"20.10.2023",
     "price":"Conference fee for speakers is 600 UAH / $50. For students and PhD students the fee is 300 UAH / $25."
 }
