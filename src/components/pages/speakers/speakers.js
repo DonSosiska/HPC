@@ -3,6 +3,8 @@ import { Component } from "react";
 import {Card} from "react-bootstrap"
 import defaultImg from "../../../sources/img/kpi-logo.7e0ca165.svg"
 
+
+
 class Speakers extends Component {
     constructor() {
       super()
@@ -55,10 +57,10 @@ class Speakers extends Component {
   
     render() {
       return (
-        <div className="speakers">
-          <h1>Participants</h1>
-          {this.renderList()}
-        </div>
+          <div className="speakers">
+            <h1>Participants</h1>
+            {this.renderList()}
+          </div>
       )
     }
   }
