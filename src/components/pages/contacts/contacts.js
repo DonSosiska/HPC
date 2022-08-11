@@ -26,7 +26,7 @@ const Contacts = (data) => {
                         </p>
                         <p className="contacts__text">
                             <span className="bold">
-                                Alla Kogan
+                                Valentyna Tkachenko
                             </span>
                             , Igor Sikorsky Kyiv Polytechnic Institute 
                             <ul className="display-block">

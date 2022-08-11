@@ -10,23 +10,27 @@ const CallForPapers = (data) => {
             </div>
             <div className="dates">
                 <h1>Important Dates</h1>
-                <h5>Paper submission due :</h5>
+                <h5>Call for Papers :</h5>
                     <ul>
                         <li>{data.data.importantDates[0]}</li>
                     </ul>
-                <h5>Final Paper Submission :</h5>
+                <h5>Paper submission due :</h5>
                 <ul>
                     <li>{data.data.importantDates[1]}</li>
                 </ul>
-                <h5>Registration and full payment due :</h5>
+                <h5>Notification of paper acceptance :</h5>
                 <ul>
                     <li>{data.data.importantDates[2]}</li>
                 </ul>
-                <h5>Conference Program Announcement :</h5>
+                <h5>Response of Reviewers :</h5>
                 <ul>
                     <li>{data.data.importantDates[3]}</li>
                 </ul>
-                <h5>HPC-UA 2020:</h5>
+                <h5>Final Paper Submission:</h5>
+                <ul>
+                    <li>{data.data.importantDates[4]}</li>
+                </ul>
+                <h5>Registration and full payment due :</h5>
                 <ul>
                     <li>{data.data.importantDates[4]}</li>
                 </ul>
@@ -36,22 +40,19 @@ const CallForPapers = (data) => {
                 <div className="pad-20">
                     <p className="callforpapers__text">
                         <span className="callforpapers__span bold">Research paper submission is open!</span> 
-                        Prospective authors are invited to submit conference papers or poster presentations within the range of conference topics. 
+                        Prospective authors are invited to submit conference papers within the range of conference topics. 
                     </p>
-                    <p className="callforpapers__text"> Original papers not being submitted to journals or other conferences will be considered. All submitted papers will be reviewed by the program committee to ensure their originality, significance, fundamental insights, potential long-term contribution, correctness, presentation and relevance. We encourage authors to present their work on practical studies and experiments, critique of existing works, emerging issues, and novel ideas under development. Conference papers and poster presentations must be submitted electronically after registration as a conference participant. </p>
-                    <p className="callforpapers__text"> All of the authors of each presented paper must be registered as participants of the conference via conference Web site registration form for the paper to be included in the proceedings. 
-                    </p>
+                    <p className="callforpapers__text"> Original papers not being submitted to journals or other conferences will be considered. All submitted papers will be reviewed by the program committee to ensure their originality, significance, fundamental insights, potential long-term contribution, correctness, presentation and relevance. We encourage authors to present their work on practical studies and experiments, critique of existing works, emerging issues, and novel ideas under development. Conference papers must be submitted electronically after registration as a conference participant. </p>
                     <ul className="callforpapers__papers-list">
                         <span>Your submission must satisfy the following requirements:</span>
                         <li>conference paper at least 4-6 pages,</li>
-                        <li> poster presentations up to A0 size, poster must be supplemented with an abstract, including all figures, tables, and references. </li>
                     </ul>
                     <p className="callforpapers__text">Accepted papers will be published in the conference proceedings.</p>
                     <p className="callforpapers__text"> You can also submit your extended article at least 8-15 pages. Extended articles will be published in special issues of the scientific journals. The cost of publication is not included in the organizational fee. For publication of extended articles, you should contact the organizing committee via e-mail: <a href="mailto:hpc.ua.conf@gmail.com?cc=hpc.ua.conf@gmail.com" className="callforpapers__mail">hpc.ua.conf@gmail.com</a>
                     </p>
                 </div>
             </div>
-            <div className="callWorkshop">
+            {/*<div className="callWorkshop">
                 <h1 className="title">Call for Workshops / Exhibitions Section</h1>
                 <div className="pad-20">
                     <p className="callforpapers__text"> Innovative products will be presented on the workshops as part of the proposed format of HPC-UA conference. The industrial exhibition will be held presenting software and hardware products ready for industrial and commercial use. Everyone, including students and young scientists with their innovative projects can take part in the workshops. Moreover, exhibitions with the participation of GlobalLogic will take place at the conference. </p>
@@ -70,7 +71,7 @@ const CallForPapers = (data) => {
                         <li>Availability of brochures and flyers (yes, no).</li>
                     </ul>
                 </div>
-            </div>
+    </div>*/}
         </div>
     )
 }
